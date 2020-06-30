@@ -82,14 +82,14 @@
 		right: 10px;
 	}
 	.slider__txt {
-		left: 18%;
+		left: 17%;
 		top: 37%;
 	}
 	.slider__txt-two {
-		left: 33%;
+		left: 31.5%;
 	}
 	.slider__txt-three {
-		left: 46.5%;
+		left: 45.5%;
 	}
 	.slider__line {
 		height: 40px;
@@ -105,5 +105,8 @@
 	.slider .slick-dots {
 		bottom: 15px;
 		left: 32%;
+	}
+	#pills-tab {
+		justify-content: center;
 	}
 }

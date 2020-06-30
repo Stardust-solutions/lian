@@ -139,6 +139,7 @@
 	align-items: center;
 	margin: 3px 0px 0px 40px;
 	transition: 0.5s;
+	padding: 0px 15px;
 }
 .social__item .fa {
 	color: #707070;

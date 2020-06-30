@@ -33,6 +33,25 @@
 	.heading__title {
 		font-size: 2rem;
 	}
+	.social__list {
+		margin: 3px 0px 0px 10px;
+		width: 240px;
+	}
+	.slider__item img {
+		margin-bottom: 12px;
+	}
+	.design {
+		padding-top: 35px;
+	}
+	.slider .slick-arrow {
+		top: -80px;
+	}
+	#slider__share1 {
+		margin-bottom: 10px;
+	}
+	#social__hover1 {
+		margin-bottom: 15px;
+	}
 }
 @media screen and (max-width: 320px) {
 	

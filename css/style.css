@@ -186,7 +186,7 @@ button {
     display: flex;
     margin: 0 auto;
     padding: 65px 0px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .social .fab {
     color: #777777;
