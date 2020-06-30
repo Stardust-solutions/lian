@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff'),
+        url('../fonts/Roboto-Light.ttf') format('truetype'),
+        url('../fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+html {
+    font-size: 14px;
+
+}
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #777777;
+}
+html, body {
+    height: 100%;
+}
+ul {
+    list-style: none;
+}
+.btn {
+    text-transform: uppercase;
+    font-size: 0.93rem;
+    color: #fff;
+    width: 125px;
+    padding: 12px 0px;
+    background-color: #959595;
+    font-weight: bold;
+    display: block;
+    border: none;
+}
+button {
+    border: none;
+}
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+.btn:focus {
+    box-shadow: none;
+}
+
+
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    height: 95px;
+}
+.header:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 2;
+}
+.header__body {
+    position: relative;
+    height: 95px;
+    padding-top: 30px;
+}
+.header__logo {
+    max-width: 135px;
+    position: relative;
+    z-index: 3;
+}
+.header__logo img {
+    max-width: 100%;
+}
+.header__burger {
+    display: block;
+}
+.header__list {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.header__link {
+    color: #777;
+    text-transform: uppercase;
+    margin-left: 45px;
+    position: relative;
+    z-index: 2
+}
+.header__link:hover {
+    color: #000;
+    text-decoration: none;
+}
+.header__link-active {
+    margin-left: 45px;
+}
+.header__link-active {
+    color: #000;
+}
+.header__link-active:before {
+    content: '';
+    width: 25px;
+    display: block;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 7px;
+    left: -35px;
+}
+.search__box {
+    height: 25px;
+    line-height: 20px;
+    margin-left: 40px;
+}
+.search__box:hover > .search__txt {
+    width: 180px;
+}
+/* .search__box:hover > .search__btn {
+    background: #fff;
+} */
+.search__txt {
+    border: none;
+    border-bottom: 1px solid #777777;
+    transform: 0.4s;
+    width: 0px;
+    transition: 0.4s;
+}
+.search__btn {
+}
+.search__btn .fa {
+    color: #777;
+}
+::-webkit-#sidebar__search-placeholder {
+    color:#777;
+    opacity: 1;
+    text-transform: uppercase;
+}/* webkit */
+::-moz-#sidebar__search-placeholder {
+    color:#777;
+    opacity: 1;
+    text-transform: uppercase;
+}/* Firefox 19+ */
+:-moz-#sidebar__search-placeholder {
+    color:#777;
+    opacity: 1;
+    text-transform: uppercase;
+}/* Firefox 18- */
+:-ms-#sidebar__search-placeholder {
+    color: #777;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.social {
+    border-bottom: 2px solid #ebebeb;
+}
+.social__logo {
+    border-bottom: 2px solid #ebebeb;
+}
+.social__logo img {
+    display: block;
+    margin: 65px auto 45px;
+
+}
+.social__icon {
+    width: 35%;
+    display: flex;
+    margin: 0 auto;
+    padding: 65px 0px;
+    justify-content: space-between;
+}
+.social .fab {
+    color: #777777;
+}
+.social .fab:hover {
+    color: #000;
+}
+.social.fab:last-child {
+    margin-left: 0px;
+}
+
+.footer {
+    padding: 37px 0px;
+}
+.footer__text {
+    color: #9c9c9c;
+    text-transform: uppercase;
+    font-size: 0.93rem;
+    text-align: center;
+}
+.footer__text span a {
+    color: #000;
+}
+.footer__text span a:hover {
+    text-decoration: none;
+}

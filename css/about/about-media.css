@@ -1,0 +1,64 @@
+@media screen and (max-width: 1920px){
+
+}
+@media screen and (max-width: 1600px){
+	.about__line {
+		width: 55%;
+	}
+}
+@media screen and (max-width: 1367px) {
+
+}
+@media screen and (max-width: 1200px) {
+	.about {
+		padding: 70px 0px 70px 70px;
+		background-size: 100% 100%;
+	}
+}
+@media screen and (max-width: 992px) {
+	.about__title {
+		font-size: 2.5rem;
+	}
+	.about__line {
+		height: 40px;
+	}
+	.story__img img {
+		width: 100%;
+	}
+	.card__image {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.about {
+		padding: 70px 0px 70px 70px;
+		background-size: 100% 100%;
+	}
+	.about__title {
+		font-size: 2rem;
+	}
+	.card__image {
+		width: 100%;
+	}
+	.social .fab {
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.about {
+		padding: 70px 0px;
+	}
+	.about__line {
+		width: 70%;
+		padding: 9px 0px;
+	}
+	.progress__info::before {
+		width: 20px;
+	}
+	.social .fab {
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 320px) {
+	
+}

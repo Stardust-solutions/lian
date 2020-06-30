@@ -1,0 +1,136 @@
+.about {
+    margin-top: 100px;
+    padding: 120px 0px 120px 230px;
+    background: url(../../img/about/about_bg.jpg) no-repeat center / cover;
+    -webkit-box-shadow: inset 0px 4px 8px 0px rgba(213,213,214,1);
+    -moz-box-shadow: inset 0px 4px 8px 0px rgba(213,213,214,1);
+    box-shadow: inset 0px 4px 8px 0px rgba(213,213,214,1);
+}
+.about__line {
+    width: 40%;
+    height: 60px;
+    text-align: center;
+    background-color: #000;
+    margin-bottom: 45px;
+}
+.about__title {
+    font-size: 3.43rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+}
+.subtitle {
+    font-size: 1.29rem;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: .4rem;
+}
+.story {
+    padding-top: 75px;
+    background-color: #fafafa;
+}
+.story__subtitle {
+    margin: 10px 0px 30px;
+}
+.story__text {
+    margin-bottom: 40px;
+    line-height: 2rem;
+}
+.progress {
+    position: relative;
+}
+.progress__title {
+    font-size: 1.14rem;
+    font-weight: bold;
+}
+.progress-bar {
+    height: 1px;
+    background-color: #000;
+    margin-top: 7px;
+}
+/* .btn-secondary {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #000;
+} */
+.story__progress {
+    position: relative;
+    margin-bottom: 15px;
+}
+.progress__info {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #000;
+    position: absolute;
+    z-index: 5;
+    top: 1px;
+    left: 90%;
+}
+.progress__info-two {
+    left: 95%;
+}
+.progress__info-three {
+    left: 50%;
+}
+.progress__info-four {
+    left: 85%;
+}
+.progress__info:before {
+    content: attr(data-name);
+    position: absolute;
+    background: url(../../img/about/info.png) no-repeat;
+    width: 40px;
+    height: 28px;
+    top: -30px;
+    text-align: center;
+}
+.progress__info[data-name] {
+    color: #fff;
+}
+.team {
+    padding: 100px 0px;
+    background-color: #fafafa;
+    -webkit-box-shadow: inset 0px -2px 8px 0px rgba(213,213,214,1);
+    -moz-box-shadow: inset 0px -2px 8px 0px rgba(213,213,214,1);
+    box-shadow: inset 0px -2px 8px 0px rgba(213,213,214,1);
+}
+.team__title {
+    font-size: 2.14rem;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.team__text {
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.card__item {
+    padding: 35px 40px 0px 35px;
+}
+.card__image img {
+    width: 100%;
+}
+.card__title {
+    font-size: 1.71rem;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 300;
+}
+.card__subtitle {
+    font-weight: bold;
+}
+.card__text {
+    line-height: 2rem;
+}
